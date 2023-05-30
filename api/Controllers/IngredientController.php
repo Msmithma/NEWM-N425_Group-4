@@ -5,8 +5,10 @@
  * File: MenuItemIngredientController.php
  * Description: file to control menuitemingredient model
  */
+//declare namespace for class 
 namespace MyCollegeAPI\Controllers;
 
+//refer to namespace alias with use keyword 
 use Psr\Http\Message\ServerRequestInterface as Request;
 use Psr\Http\Message\ResponseInterface as Response;
 use MyCollegeAPI\Models\Ingredient;
